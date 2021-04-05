@@ -1,6 +1,6 @@
 ```ruby
 describe Event do
-  describe "Some kfeedback form" do
+  describe "Some feedback form" do
 
     before do
       @user = create(:user, name: "Dupont")
