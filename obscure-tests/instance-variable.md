@@ -1,10 +1,10 @@
 ```ruby
 describe Event do
-  describe "feedback form" do
+  describe "Some kfeedback form" do
 
     before do
-      @user = create(:user, name: "ikem")
-      @event = create(:event, title: "birthday")
+      @user = create(:user, name: "Dupont")
+      @event = create(:event)
     end
 
     context "before all activity" do
